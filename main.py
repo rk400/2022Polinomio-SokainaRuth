@@ -19,7 +19,7 @@ def menu():
         else:
             print("Opcion incorrecta, por favor ingrese una opcion (1 para sumar y 2 para restar): ")
             return(int(input("Opcion: ")))
-    except:
+    except RuntimeError:
         print("Opcion incorrecta, por favor ingrese una opcion (1 para sumar y 2 para restar): ")
         return(int(input("Opcion: ")))
 
