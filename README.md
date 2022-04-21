@@ -6,17 +6,14 @@ _En este código, se crea una calculadora para dos polinomios, con suma y resta 
 
 Este código, se ejecuta desde el main.py.
 
-```
+```python
 python main.py
 ```
 Se debe ingresar un valor entre 0 y 2 para escoger una opción del menú:
-- *1*, para sumar polinomios
-- *2*, para restar polinomios
-- *0*, para salir
-
-
+  - _1_, para sumar polinomios
+  - _2_, para restar polinomios
+  - _0_, para salir
 después, se debe ingresar la cantidad de coeficientes que tendrá cada polinomio.
-
 
 Ejemplo de parámetros de entrada:
 
