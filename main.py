@@ -10,9 +10,8 @@ def menu():
     print("*  2. Resta                           *")
     print("*  0. Salir                           *")
     print("***************************************")
-    
-    opcion = input("Opcion: ")
 
+    opcion = input("Opcion: ")
 
     try:
         if int(opcion) >= 0 and int(opcion) <= 2:
@@ -32,7 +31,6 @@ while(True):
         break
 
     else:
-        
         num11 = int(input("Ingrese el numero de elementos del primer polinomio: ")) 
         num22 = int(input("Ingresa el numero de elementos del segundo polinomio: "))
 

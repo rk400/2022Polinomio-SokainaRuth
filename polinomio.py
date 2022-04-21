@@ -5,14 +5,13 @@ class calc:
         '''argumentos de entrada: dos listas, cada una con un polinomio
         retorna: la suma de los dos polinomios
         '''
-        
         may = x
         men = y
         sum = [0]*len(may)
         if len(x) < len(y):
             men = x
             may = y
-        sum = [men[i] + may[i] for i in range(len(men))]    
+        sum = [men[i] + may[i] for i in range(len(men))]
         aux = [may[i] for i in range(len(men),len(may))]
         sum = sum + aux
 
