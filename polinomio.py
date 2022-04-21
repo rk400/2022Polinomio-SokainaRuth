@@ -3,9 +3,10 @@ class calc:
 
     @classmethod
     def suma(cls, x, y):
+        #argumentos de entrada: dos listas, cada una con un polinomio
+        #retorna: la suma de los dos polinomios
         may = x
         men = y
-        sum = [0]*len(may)
         if len(x) < len(y):
             men = x
             may = y
@@ -19,9 +20,10 @@ class calc:
 
     @classmethod
     def resta(cls, x, y):
+        #argumentos de entrada: dos listas, cada una con un polinomio
+        #retorna: la resta de los dos polinomios
         may = x
         men = [y[i]*(-1) for i in range(len(y))]
-        sum = [0]*len(may)
         if len(x) < len(y):
             men = x
             may = [y[i]*(-1) for i in range(len(y))]
