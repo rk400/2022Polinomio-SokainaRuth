@@ -1,7 +1,8 @@
 
 class calc:
 
-    def suma(self, x, y):
+    @classmethod
+    def suma(cls, x, y):
         '''argumentos de entrada: dos listas, cada una con un polinomio
         retorna: la suma de los dos polinomios
         '''
@@ -19,7 +20,8 @@ class calc:
         print("El resultado de sumar ", str(x), "+", str(y), " es: ", str(sum))
         print("--------------------------------------------------------------")
 
-    def resta(self, x, y):
+    @classmethod
+    def resta(cls, x, y):
         '''argumentos de entrada: dos listas, cada una con un polinomio
         retorna: la resta de los dos polinomios
         '''
