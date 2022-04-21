@@ -31,7 +31,7 @@ while(True):
         break
 
     else:
-        num11 = int(input("Ingrese el numero de elementos del primer polinomio: ")) 
+        num11 = int(input("Ingrese el numero de elementos del primer polinomio: "))
         num22 = int(input("Ingresa el numero de elementos del segundo polinomio: "))
 
         num1 = list(map(int,input("\nIngrese los elementos del primer polinomio: ").strip().split(',')))[:num11]
