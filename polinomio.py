@@ -1,6 +1,5 @@
 
 class calc:
-
     @classmethod
     def suma(cls, x, y):
         '''argumentos de entrada: dos listas, cada una con un polinomio
@@ -8,7 +7,7 @@ class calc:
         '''
         may = x
         men = y
-        sum = [0]*len(may)
+        '''sum = [0]*len(may)'''
         if len(x) < len(y):
             men = x
             may = y
@@ -27,7 +26,7 @@ class calc:
         '''
         may = x
         men = [y[i]*(-1) for i in range(len(y))]
-        sum = [0]*len(may)
+        '''sum = [0]*len(may)'''
         if len(x) < len(y):
             men = x
             may = [y[i]*(-1) for i in range(len(y))]
